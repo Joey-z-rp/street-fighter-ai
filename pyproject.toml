@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "street-fighter-ai"
+version = "0.1.0"
+description = ""
+authors = ["Joey Zheng <joey.zheng@smokeball.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+stable-retro = "0.9.1"
+torch = "^2.2.1"
+stable-baselines3 = "^2.3.0"
+tensorboard = "^2.16.2"
+gymnasium = "^0.29.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
